@@ -13,8 +13,6 @@ on:
       - 'feature-*'
       - 'bugfix-*'
       - 'release-*'
-    paths-ignore:
-      - '.github/**'
 jobs:
   test:
     runs-on: ubuntu-latest
